@@ -1,0 +1,280 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+
+.main{
+
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url('../images/1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar{
+
+        width: 1200px;
+        height: 75px;
+        margin: 0;
+
+
+}
+
+.icons{
+
+    width: 400px;
+    height: 70px;
+    float: left;
+
+}
+.logo{
+
+    font-size: 35px;
+    color: #ff7200;
+    padding-left: 10px;
+    margin-left: 20px;
+    margin-top:5px;
+    text-align: center;
+    float: left;
+    padding-top: 10px;
+
+
+
+}
+
+.menu{
+
+    width: 600px;
+    height: 70px;
+    float: left; 
+    
+       
+}
+
+ul{
+
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+
+    list-style: none;
+    margin-top: 30px;
+    margin-left: 25px;
+    font-size: 20px;
+
+}
+
+ul li a{
+
+     text-decoration: none;
+     color:white;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: 200px;
+}
+
+ul li a:hover{
+
+    color:#ff7200;
+}
+
+
+
+    .search{
+        width: 400px;
+        float: left;
+        height: 75px;
+        margin-left: 950px;
+        margin-top: -57px;
+        
+    }
+
+    .srch{
+
+        width: 200px;
+         height: 42px;
+         background: transparent;
+         
+         
+         font-size: 16px;
+         border-bottom-left-radius: 5px;
+         border-top-right-radius: 5px;
+         padding: 10px;
+
+         color:#fff;
+         background-color: #fff;
+         
+         
+    }
+
+    .btn{
+
+    width: 100px;
+    height: 40px;
+    margin-left: -7px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 10px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+    padding-left: 5px;
+    
+
+    }
+
+    .content{
+
+        color:white;
+        width: 422px;
+        height: 200px;
+        margin-top: 150px;
+        text-align: center;
+        font-size: 33px;
+       
+    }
+
+    .content span{
+
+        color:#ff7200;
+    }
+
+    .paraContent{
+
+        width: 824px;
+        margin-top: 30px;
+        color:white;
+        
+        align-items: center;
+        margin-left: 5px;
+    }
+
+    .paraContent p{
+
+        font-size: 20px;
+        justify-content: center;
+        line-height: 1.5;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    .cn{
+
+        margin-top: 20px;
+        margin-left: 20px;
+        width: 140px;
+        height: 40px;
+        background-color: #ff7200;
+        cursor: pointer;
+        border-radius: 20px;
+        transition: 0.4s ease-in-out;
+    }
+
+    .cn a{
+
+        text-decoration: none;
+        color:white;
+    }
+
+    .cn:hover{
+
+        background-color: blue;
+    }
+
+    .btn:focus{
+
+        outline: none;
+    }
+    
+
+    .form{
+
+        top: 144px;
+        left: 964px;
+        width: 250px;
+        height: 380px;
+        position: absolute;
+        background-color:rgba(0,0,255,0.2);
+        padding: 10px;
+        border-radius: 10px;
+
+    }
+
+    .form h2{
+
+        color:#ff7200;
+        width: 220px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        background-color: #fff;
+        border-radius: 10px;
+        margin: 2px;
+        padding: 8px;
+
+      
+    }
+
+
+    .form input{
+
+        width: 200px;
+        height: 20px;
+        margin-top: 30px;
+        padding: 5px;
+        margin-left:7px;
+        background: transparent;
+        border-bottom: 2px solid #ff7200;
+        border-top:none;
+        border-left: none;
+        border-right: none;
+       
+        
+    }
+
+    .btnn{
+
+        margin-top: 20px;
+        width:120px;
+        height: 40px;
+        background-color: #ff7200;
+         margin-left: 40px;
+         border-radius: 20px;
+
+
+    }
+
+    .btnn a{
+
+        color:white;
+        text-decoration: none;
+        font-size: 20px;
+    }
+
+    .form p{
+
+        color:white;
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+
+
+    .form p a{
+
+        color:#ff7200;
+    }
+
+
+
+
+
+
+
